@@ -2,7 +2,7 @@
 // Criar váriável para herói, xp e nivel de xp
 
 let nickName = "Programador sem Medo"
-let xpHeroi = 7000
+let xpHeroi = 9005
 let nivelHeroi
 
 //Criar os niveis do Heroi em XP
@@ -27,4 +27,4 @@ if(xpHeroi < 1000) {
 
 //Saída
 
-console.log("O Herói de Nome " + nickName + "está no nível de " + nivelHeroi)
+console.log("O Herói de Nome " + nickName + " está no nível de " + nivelHeroi + " com um total de " + xpHeroi + " XPs")
